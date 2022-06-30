@@ -42,7 +42,7 @@ I created four endpoint for testing/running the application.
     http://127.0.0.1:5000/add + send Task name in form data with "todoitem" key.
 
 3. For changing the status from incomplete to complete by task id.
-    http://127.0.0.1:5000/complte/<id>    , where id is task id
+    http://127.0.0.1:5000/complete/<id>    , where id is task id
 
 4. For delete the task by task id.
     http://127.0.0.1:5000/delete/<todo_id> , where todo_id is task id.
